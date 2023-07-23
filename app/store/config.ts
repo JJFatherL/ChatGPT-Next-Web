@@ -100,6 +100,10 @@ export const ALL_MODELS = [
     available: true,
   },
   {
+    name: "zhuge_fagui", // zhuge_fagui
+    available: true,
+  },
+  {
     name: "qwen-v1", // 通义千问
     available: false,
   },

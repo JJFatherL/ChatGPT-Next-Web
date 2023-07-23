@@ -2,6 +2,30 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
   {
+    avatar: "1f638",
+    name: "诸葛投行法规",
+    context: [
+      {
+        role: "system",
+        content:
+          "Hi!我是你的投行法规军师-百川诸葛，你有任何有关投行法规的问题，我都可以帮您查阅相关资料进行解答～～",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "zhuge_fagui",
+      temperature: 0.6,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
     avatar: "1f5bc-fe0f",
     name: "以文搜图",
     context: [
